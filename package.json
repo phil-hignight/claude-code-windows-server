@@ -1,6 +1,6 @@
 {
   "name": "claude-code-windows-server",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Bridge server to run Claude Code with Windows client",
   "main": "index.js",
   "scripts": {
@@ -20,15 +20,8 @@
   "homepage": "https://github.com/phil-hignight/claude-code-windows-server#readme",
   "dependencies": {
     "ws": "^8.14.2",
-    "commander": "^11.1.0"
-  },
-  "peerDependencies": {
-    "@anthropic-ai/claude-code": "*"
-  },
-  "peerDependenciesMeta": {
-    "@anthropic-ai/claude-code": {
-      "optional": true
-    }
+    "commander": "^11.1.0",
+    "@anthropic-ai/claude-code": "^1.0.0"
   },
   "bin": {
     "claude-code-windows-server": "./index.js"

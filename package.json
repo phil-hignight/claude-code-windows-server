@@ -7,9 +7,17 @@
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["claude-code", "windows", "bridge", "server"],
-  "author": "",
+  "keywords": ["claude-code", "windows", "bridge", "server", "websocket", "powershell"],
+  "author": "phil-hignight",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phil-hignight/claude-code-windows-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/phil-hignight/claude-code-windows-server/issues"
+  },
+  "homepage": "https://github.com/phil-hignight/claude-code-windows-server#readme",
   "dependencies": {
     "ws": "^8.14.2",
     "commander": "^11.1.0"

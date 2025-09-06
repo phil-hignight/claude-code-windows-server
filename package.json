@@ -1,6 +1,6 @@
 {
   "name": "claude-code-windows-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bridge server to run Claude Code with Windows client",
   "main": "index.js",
   "scripts": {

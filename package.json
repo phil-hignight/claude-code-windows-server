@@ -1,0 +1,31 @@
+{
+  "name": "claude-code-windows-server",
+  "version": "1.0.0",
+  "description": "Bridge server to run Claude Code with Windows client",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["claude-code", "windows", "bridge", "server"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.14.2",
+    "commander": "^11.1.0"
+  },
+  "peerDependencies": {
+    "@anthropic-ai/claude-code": "*"
+  },
+  "peerDependenciesMeta": {
+    "@anthropic-ai/claude-code": {
+      "optional": true
+    }
+  },
+  "bin": {
+    "claude-code-windows-server": "./index.js"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
